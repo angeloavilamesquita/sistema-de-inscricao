@@ -20,16 +20,16 @@
             <form class="row gy-2 gx-3 align-items-center">
                 <div class="col-auto">
                     <label class="visually-hidden" for="autoSizingInput">Nome</label>
-                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Digite seu nome">
+                    <input type="text" id="inputNome" class="form-control" id="autoSizingInput" placeholder="Digite seu nome">
                 </div>
                 <div class="col-auto">
                     <label class="visually-hidden" for="autoSizingInputGroup">Curso</label>
                     <div class="input-group">
-                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Digite seu curso">
+                    <input type="text" id="inputCurso" class="form-control" id="autoSizingInputGroup" placeholder="Digite seu curso">
                     </div>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Inscrever</button>
+                    <button type="submit" onclick="inscrever()" class="btn btn-primary">Inscrever</button>
                 </div>
                 </form>
         </section>
@@ -57,6 +57,7 @@
             </table>
         </section>
     </main>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
 
