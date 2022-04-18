@@ -45,5 +45,7 @@
 - elemento.onkeyup = quando o usuário solta uma tecla
 - funções anonimas em eventos tem como primeiro parametro o atributo event (evento que chamou a função)
 - elemento.localName => nome do elemento
+- prevendDefault = https://developer.mozilla.org/pt-BR/docs/Web/API/Event/preventDefault
+- addEventListener = https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
 
 
