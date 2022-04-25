@@ -18,24 +18,25 @@
     <main class="container-md"> 
         <section class="rounded-3 d-flex flex-wrap align-items-center justify-content-center bg-white p-3 m-3">
             <form class="row gy-2 gx-3 align-items-center">
+                <input type="hidden" id="input-id" name="input-id"/>
                 <div class="col-auto">
                     <label class="visually-hidden" for="autoSizingInput">Nome</label>
-                    <input type="text" id="inputNome" class="form-control" id="autoSizingInput" placeholder="Digite seu nome">
+                    <input type="text" id="input-nome" class="form-control" placeholder="Digite seu nome">
                 </div>
                 <div class="col-auto">
                     <label class="visually-hidden" for="autoSizingInputGroup">Curso</label>
                     <div class="input-group">
-                    <input type="text" id="inputCurso" class="form-control" id="autoSizingInputGroup" placeholder="Digite seu curso">
+                    <input type="text" id="input-curso" class="form-control" placeholder="Digite seu curso">
                     </div>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" onclick="inscrever()" class="btn btn-primary">Inscrever</button>
+                    <button type="submit" onclick="ehParaAdicionarInscricao()" class="btn btn-primary">Salvar</button>
                 </div>
                 </form>
         </section>
         <section class="rounded-3 d-flex flex-wrap align-items-center justify-content-center bg-white p-3 m-3">
             <h2>Inscrições Realizadas</h2>
-            <table class="table">
+            <table id="table-inscricoes" class="table">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -46,13 +47,6 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Angelo</td>
-                    <td>Sistemas de Informação</td>
-                    <td>editar</td>
-                    <td>apagar</td>
-                </tr>
             </tbody>
             </table>
         </section>
